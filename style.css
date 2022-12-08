@@ -70,9 +70,10 @@ i:hover {
 }
 
 #header-purp-bkgrd {
-  background-color: #4433A3;
+  background-image: url("./images/pizza.jpg");
+  background-size: cover;
   padding: 20px;
-  box-shadow: 0px 10px 30px rgba(25,19,59,0.5);
+  box-shadow: 0px 10px 30px rgba(190, 11, 11, 0.5);
   border-radius: 16px;
   margin: 20px 0px;
 }
