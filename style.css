@@ -62,9 +62,9 @@ i:hover {
 }
 
 .card {
-  background-color: #fefefe;
+  background-color: #fffdfa;
   padding: 40px;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 0px 10px 30px rgba(134, 133, 131, 0.5);
   border-radius: 4px;
   margin: 20px 0px;
 }
@@ -76,7 +76,7 @@ i:hover {
   margin: 20px 0px;
   background-image: url("./images/pizza.jpg");
   background-size: cover;
-  box-shadow: 0 3000px rgba(190, 11, 11, 0.5) inset;
+  box-shadow: 0 3000px rgba(190, 11, 11, 0.4) inset;
 }
 
 .text-center {
