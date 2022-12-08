@@ -15,7 +15,7 @@ h1{
 }
 
 h2, h3 {
-  color: #4433A3;
+  color: rgb(232, 72, 43 );
   font-family: 'Public Sans', sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -23,36 +23,36 @@ h2, h3 {
 }
 
 a {
-  color: #6ABAA4;
+  color: rgb(232, 165, 70);
   text-decoration: none;
   font-weight: 700
 }
 
 a:hover {
   text-decoration: none;
-  color: #62a996;
+  color: rgb(201, 142, 60);
 }
 
 i {
-  color: #6ABAA4;
+  color: rgb(232, 165, 70);
   font-size: 50px;
   text-decoration: none;
 }
 
 i:hover {
   text-decoration: none;
-  color: #62a996;
+  color: rgb(201, 142, 60);
 }
 
-.btn-grn {
-  background-color: #6ABAA4;
+.btn-yellow {
+  background-color: rgb(232, 165, 70);
   color: #ffffff;
   padding: 15px 20px;
   border-radius: 4px;
 }
 
-.btn-grn:hover {
-  background-color: #62a996;
+.btn-yellow:hover {
+  background-color: rgb(201, 142, 60);
   color: #ffffff;
 }
 
@@ -69,13 +69,14 @@ i:hover {
   margin: 20px 0px;
 }
 
-#header-purp-bkgrd {
-  background-image: url("./images/pizza.jpg");
-  background-size: cover;
+#header-pizza-background {
   padding: 20px;
   box-shadow: 0px 10px 30px rgba(190, 11, 11, 0.5);
   border-radius: 16px;
   margin: 20px 0px;
+  background-image: url("./images/pizza.jpg");
+  background-size: cover;
+  box-shadow: 0 3000px rgba(190, 11, 11, 0.5) inset;
 }
 
 .text-center {
