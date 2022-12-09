@@ -15,7 +15,7 @@ h1{
 }
 
 h2, h3 {
-  color: rgb(232, 72, 43 );
+  color: rgb(232, 72, 43);
   font-family: 'Public Sans', sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -71,7 +71,6 @@ i:hover {
 
 #header-pizza-background {
   padding: 20px;
-  box-shadow: 0px 10px 30px rgba(190, 11, 11, 0.5);
   border-radius: 16px;
   margin: 20px 0px;
   background-image: url("./images/pizza.jpg");
@@ -106,6 +105,7 @@ i:hover {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 600px;
+    margin: 0 auto;
   }
 }
 
@@ -113,6 +113,7 @@ i:hover {
   /* For a screen < 720px, this CSS will be read */
   .container {
     width: 500px;
+    margin: 0 auto;
   }
 }
 
@@ -120,5 +121,6 @@ i:hover {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
+    margin: 0 auto;
   }
 }
